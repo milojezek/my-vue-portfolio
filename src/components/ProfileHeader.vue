@@ -15,10 +15,10 @@
     </nav>
     <div class="socials">
       <a href="https://www.linkedin.com/in/miloslav-jezek/" target="_blank">
-        <img src="@/assets/icons/mdi--linkedin.svg" alt="LinkedIn" />
+        <v-icon name="bi-linkedin" fill="#e9232c" scale=2 />
       </a>
       <a href="https://github.com/milojezek" target="_blank">
-        <img src="@/assets/icons/mdi--github.svg" alt="GitHub" />
+        <v-icon name="bi-github" fill="#e9232c" scale=2   />
       </a>
     </div>
   </header>
