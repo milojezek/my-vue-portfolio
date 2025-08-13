@@ -22,11 +22,12 @@ Here I'm rewriting my learning portfolio from HTML & CSS to Vue.js, converting s
    Then open localhost with a specified port in your browser.
 
 
-## Technologies Used
+## What I Used
 
 - Vue.js
-- JavaScript
+- TypeScript
 - HTML & CSS
+- Iconify
 
 ## License
 
