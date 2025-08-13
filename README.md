@@ -1,39 +1,33 @@
-# my-vue-portfolio
+# My Vue Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+Here I'm rewriting my learning portfolio from HTML & CSS to Vue.js, converting static markup into a component-based application. This project is currently primarily for learning purposes.
 
-## Recommended IDE Setup
+## Run Locally
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/milojezek/my-vue-portfolio.git
+   cd my-vue-portfolio
+   ```
 
-## Type Support for `.vue` Imports in TS
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+   Then open localhost with a specified port in your browser.
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Technologies Used
 
-## Project Setup
+- Vue.js
+- JavaScript
+- HTML & CSS
 
-```sh
-npm install
-```
+## License
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+This project is licensed under the MIT License.
