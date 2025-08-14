@@ -1,7 +1,7 @@
 :root {
   --color-accent: gold;
   --color-background-accent: white;
-  --color-highlight: #e9232c;
+  --color-highlight: #15803d;
 }
 
 html {
@@ -18,8 +18,9 @@ html {
 }
 
 body {
-  background: #063a38;
-  color: lightgray;
+  background: white;
+  color: #334155;
+  /* Darker slate */
   padding: 4rem 2rem;
   /* Vertical, horizontal */
   display: grid;
@@ -48,9 +49,9 @@ h6::selection {
 
 .underlay {
   position: fixed;
-  background: #172554;
+  background: white;
   inset: 0;
-  opacity: 0.25;
+  opacity: 0;
 }
 
 header,
