@@ -16,10 +16,18 @@
     </nav>
     <div class="socials">
       <a href="https://www.linkedin.com/in/miloslav-jezek/" target="_blank">
-        <v-icon name="bi-linkedin" fill="#e9232c" scale="2" />
+        <img
+          class="social-icon"
+          src="../assets//icons/linkedin-app-icon.png"
+          alt="LinkedIn Icon"
+        />
       </a>
       <a href="https://github.com/milojezek" target="_blank">
-        <v-icon name="bi-github" fill="#e9232c" scale="2" />
+        <img
+          class="social-icon"
+          src="../assets/icons/github-icon.png"
+          alt="GitHub Icon"
+        />
       </a>
     </div>
   </header>

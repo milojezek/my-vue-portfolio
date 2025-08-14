@@ -96,8 +96,8 @@ nav a {
 
 .socials {
   display: flex;
-  flex-direction: column;
-  gap: 0.1rem;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 main {
@@ -319,7 +319,8 @@ footer p {
 }
 
 .social-icon {
-  color: red;
+  width: 50px;
+  height: auto;
 }
 
 .right-dash-arrow {
