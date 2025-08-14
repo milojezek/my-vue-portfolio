@@ -322,6 +322,11 @@ footer p {
 .social-icon {
   width: 50px;
   height: auto;
+  transition: transform 0.2s;
+}
+
+.social-icon:hover {
+  transform: scale(1.15);
 }
 
 .right-dash-arrow {
