@@ -1,7 +1,7 @@
 :root {
   --color-accent: gold;
   --color-background-accent: white;
-  --color-highlight: #15803d;
+  --color-highlight: #334155;
 }
 
 html {
@@ -19,7 +19,7 @@ html {
 
 body {
   background: white;
-  color: #334155;
+  color: #475569;
   /* Darker slate */
   padding: 4rem 2rem;
   /* Vertical, horizontal */
@@ -89,6 +89,7 @@ header h4 {
 
 nav {
   display: none;
+  font-weight: bold;
 }
 
 nav a {

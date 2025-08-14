@@ -18,14 +18,14 @@
       <a href="https://www.linkedin.com/in/miloslav-jezek/" target="_blank">
         <img
           class="social-icon"
-          src="../assets//icons/linkedin-app-icon.png"
+          src="../assets//icons/linkedin-outlined-icon.png"
           alt="LinkedIn Icon"
         />
       </a>
       <a href="https://github.com/milojezek" target="_blank">
         <img
           class="social-icon"
-          src="../assets/icons/github-icon.png"
+          src="../assets/icons/github-outlined-icon.png"
           alt="GitHub Icon"
         />
       </a>
