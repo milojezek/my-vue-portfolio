@@ -5,7 +5,8 @@
     </a>
     <h4>Full Stack Developer</h4>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
     </p>
 
     <nav>
@@ -15,22 +16,22 @@
     </nav>
     <div class="socials">
       <a href="https://www.linkedin.com/in/miloslav-jezek/" target="_blank">
-        <v-icon name="bi-linkedin" fill="#e9232c" scale=2 />
+        <v-icon name="bi-linkedin" fill="#e9232c" scale="2" />
       </a>
       <a href="https://github.com/milojezek" target="_blank">
-        <v-icon name="bi-github" fill="#e9232c" scale=2   />
+        <v-icon name="bi-github" fill="#e9232c" scale="2" />
       </a>
     </div>
   </header>
 </template>
 
-<script>
-import NavLink from './NavLink.vue';
+<script lang="ts">
+import NavLink from "./NavLink.vue";
 
 export default {
   name: "ProfileHeader",
   components: {
-    NavLink
-  }
+    NavLink,
+  },
 };
 </script>

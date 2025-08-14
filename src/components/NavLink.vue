@@ -4,18 +4,18 @@
   </a>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: "NavLink",
   props: {
     href: {
       type: String,
-      required: true
+      required: true,
     },
     text: {
       type: String,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 };
 </script>
