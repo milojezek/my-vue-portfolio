@@ -42,7 +42,6 @@ h6::selection {
   opacity: 0;
 }
 
-main,
 footer {
   position: relative;
   z-index: 10;
