@@ -162,7 +162,7 @@ section h2,
 .tag {
   padding: 0.25rem 0.5rem;
   border-radius: 0.75rem;
-  background: var(--color-background-accent);
+  background: var(--color-highlight);
 }
 
 .tag p {

@@ -1,7 +1,10 @@
 <template>
   <div class="underlay"></div>
   <ProfileHeader />
-  <main><AboutSection /></main>
+  <main>
+    <AboutSection />
+    <ExperienceSection />
+  </main>
   <footer></footer>
 </template>
 
@@ -10,11 +13,13 @@ import { defineComponent } from "vue";
 
 import ProfileHeader from "@/components/ProfileHeader.vue";
 import AboutSection from "@/components/AboutSection.vue";
+import ExperienceSection from "@/components/ExperienceSection.vue";
 
 export default defineComponent({
   components: {
     ProfileHeader,
-    AboutSection
+    AboutSection,
+    ExperienceSection,
   },
   setup() {},
 });
