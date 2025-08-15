@@ -58,8 +58,7 @@ section {
   gap: 3rem;
 }
 
-section h2,
-.experience-card h3 {
+section h2 {
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: 500;
@@ -106,15 +105,10 @@ section h2,
   gap: 4rem;
 }
 
-.experience-card,
 .project-card {
   display: grid;
   /* Number of columns displayed in grid*/
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.experience-card {
-  gap: 0.5rem;
 }
 
 .project-card {
@@ -129,44 +123,6 @@ section h2,
 
 .card-title:hover span {
   padding-left: 0.5rem;
-}
-
-.card-column {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.experience-card p {
-  font-size: 0.9rem;
-}
-
-.tenure {
-  font-size: 0.5rem !important;
-  opacity: 0.7;
-  text-transform: uppercase;
-}
-
-.card-header {
-  font-weight: 400;
-  font-size: 1rem;
-}
-
-.tag-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  color: var(--color-accent);
-}
-
-.tag {
-  padding: 0.25rem 0.5rem;
-  border-radius: 0.75rem;
-  background: var(--color-highlight);
-}
-
-.tag p {
-  font-size: 0.7rem;
 }
 
 .project-image-container {
@@ -261,21 +217,12 @@ footer p {
 
 @media (min-width: 640px) {
 
-  .project-card,
-  .experience-card {
+  .project-card {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .card-column {
-    grid-column: span 3 / span 3;
   }
 
   .project-image-container {
     order: 0;
-  }
-
-  .tenure {
-    font-size: 0.75rem !important;
   }
 }
 
@@ -291,9 +238,5 @@ footer p {
     margin: 0 auto;
     /* Extra spacing on bigger screens */
     width: 100%;
-  }
-
-  .tenure {
-    font-size: 0.6rem !important;
   }
 }
