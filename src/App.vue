@@ -42,6 +42,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 4rem;
+  position: relative;
+  z-index: 10;
 }
 
 @media (min-width: 1024px) {
