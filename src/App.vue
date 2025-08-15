@@ -33,7 +33,20 @@ export default defineComponent({
   min-height: 100vh;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
 @media (min-width: 1024px) {
+  main {
+    padding-top: 6rem;
+    max-width: 600px;
+    width: 100%;
+    margin-right: auto;
+  }
+
   #app {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
